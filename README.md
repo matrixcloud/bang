@@ -51,6 +51,14 @@ helm repo add stable http://mirror.azure.cn/kubernetes/charts/
 
 > [参考](https://github.com/BurdenBear/kube-charts-mirror)
 
+## Golang
+
+```
+go env -w  GOPROXY=https://goproxy.io,direct
+```
+
+> [参考](https://learnku.com/go/wikis/38122)
+
 ## npm
 
 运行 `npm config edit`，添加或修改镜像为
