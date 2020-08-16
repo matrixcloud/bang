@@ -17,6 +17,20 @@ brew update
 
 > [参考](https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/)
 
+## Docker
+
+编辑 Docker Engine 配置
+
+```
+{
+  "experimental": false,
+  "debug": true,
+  "registry-mirrors": [
+    "https://registry.docker-cn.com"
+  ]
+}
+```
+
 ## Minikube
 
 阿里云提供
@@ -36,6 +50,14 @@ helm repo add stable http://mirror.azure.cn/kubernetes/charts/
 ```
 
 > [参考](https://github.com/BurdenBear/kube-charts-mirror)
+
+## npm
+
+运行 `npm config edit`，添加或修改镜像为
+
+```
+registry=https://registry.npm.taobao.org/
+```
 
 ## Electron Prebuilt
 
