@@ -72,3 +72,16 @@ registry=https://registry.npm.taobao.org/
 ```
 export ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/"
 ```
+
+## Maven
+
+```
+<mirrors>
+    <mirror>
+      <id>alimaven</id>
+      <name>aliyun maven</name>
+  　　<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+      <mirrorOf>central</mirrorOf>        
+    </mirror>
+</mirrors>
+```
