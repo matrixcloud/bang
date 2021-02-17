@@ -85,3 +85,6 @@ export ELECTRON_MIRROR="https://npm.taobao.org/mirrors/electron/"
     </mirror>
 </mirrors>
 ```
+## Homebrew
+
+[清华大学镜像使用指南](https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/)
